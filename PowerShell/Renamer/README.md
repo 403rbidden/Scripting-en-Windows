@@ -22,7 +22,6 @@ Antes de ejecutar esta aplicación, es crucial revisar detenidamente las seccion
 - Asegúrate de tener los permisos de ejecución necesarios.
 
 ### Ejecución
-<span style="color:yellow">¡El programa está sin terminar!</span>
 1. Abre PowerShell.
 2. Navega al directorio del script con `cd`.
 3. Ejecuta con:
