@@ -4,13 +4,13 @@
 
 ## Introducción
 
-Este programa ha sido creado con el objetivo de simplificar el proceso de cambio de nombre de archivos y carpetas dentro de un directorio específico. 
-Su propósito principal es proporcionar a los usuarios la capacidad de personalizar nombres de manera eficiente, eliminando caracteres o símbolos no deseados.
+Este programa ha sido creado con el objetivo principal de simplificar el proceso de cambio de nombre de archivos y carpetas dentro de un directorio específico. 
+Su propósito es proporcionar a los usuarios la capacidad de personalizar nombres de manera eficiente, eliminando caracteres o símbolos no deseados.
 
-Diseñado con accesibilidad en mente, busca ser amigable y beneficioso, especialmente para usuarios no avanzados. 
-Facilita el manejo y la personalización de nombres de archivos y carpetas de manera intuitiva, ofreciendo una herramienta que simplifica las tareas digitales.
+Diseñado, en primer lugar, para ser amigable y beneficioso, especialmente para usuarios no avanzados, pone la accesibilidad en el centro de su enfoque. 
+Facilita la gestión y personalización de nombres de archivos y carpetas de manera intuitiva, ofreciendo una herramienta que simplifica las tareas digitales.
 
-Con un gran compromiso para hacer que la tecnología sea más accesible para todos, este programa busca dar un paso significativo hacia ese objetivo. 
+Con un fuerte compromiso de hacer que la tecnología sea más accesible para todos, busca dar un paso significativo hacia ese objetivo. 
 Permite que incluso aquellos colectivos vulnerables o en riesgo de exclusión digital, como las personas mayores, disfruten de una experiencia informática más cómoda, agradable y eficiente.
 
 Antes de ejecutar esta aplicación, es crucial revisar detenidamente las secciones de "Advertencia" y "Descargo de responsabilidad" para garantizar una experiencia segura.
