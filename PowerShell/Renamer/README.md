@@ -6,7 +6,7 @@
 Este script de PowerShell, llamado **Renamer**, está diseñado para simplificar el proceso de cambio de nombre de archivos dentro de una carpeta especificada. 
 Proporciona a los usuarios la capacidad de personalizar nombres de archivos de manera eficiente, eliminando caracteres o símbolos no deseados.
 
-¡Por favor, revisa este archivo README detenidamente antes de ejecutar el script!
+<span style="color:blue">¡Por favor, revisa este archivo README detenidamente antes de ejecutar el script!</span>
 
 ## ⚙️ Instrucciones de Uso
 
@@ -15,6 +15,7 @@ Proporciona a los usuarios la capacidad de personalizar nombres de archivos de m
 - Asegúrate de tener los permisos necesarios para ejecutar el script.
 
 ### Ejecución
+<span style="color:yellow">¡El programa está sin terminar!</span>
 1. Abre una ventana de PowerShell.
 2. Navega al directorio que contiene el script usando el comando `cd`.
 3. Ejecuta el script ingresando el siguiente comando:
