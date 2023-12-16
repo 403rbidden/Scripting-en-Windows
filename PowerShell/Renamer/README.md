@@ -4,18 +4,22 @@
 
 ## Introducción
 
-Este programa tiene como objetivo simplificar el proceso de cambio de nombre de archivos y carpetas en un directorio específico. 
-Proporciona a los usuarios la capacidad de personalizar nombres de manera eficiente, eliminando caracteres o símbolos no deseados.
+Este programa ha sido creado con el objetivo de simplificar el proceso de cambio de nombre de archivos y carpetas dentro de un directorio específico. 
+Su propósito principal es proporcionar a los usuarios la capacidad de personalizar nombres de manera eficiente, eliminando caracteres o símbolos no deseados.
 
-Antes de ejecutar el script, es fundamental revisar detenidamente las secciones "Advertencia" y "Descargo de responsabilidad". 
+Diseñado con accesibilidad en mente, busca ser amigable y beneficioso, especialmente para usuarios no avanzados. 
+Facilita el manejo y la personalización de nombres de archivos y carpetas de manera intuitiva, ofreciendo una herramienta que simplifica las tareas digitales.
 
-Este programa está diseñado para ser amigable y beneficioso, especialmente para usuarios no avanzados, facilitándoles el manejo y personalización de nombres de archivos y carpetas de manera intuitiva.
+Con un gran compromiso para hacer que la tecnología sea más accesible para todos, este programa busca dar un paso significativo hacia ese objetivo. 
+Permite que incluso aquellos colectivos vulnerables o en riesgo de exclusión digital, como las personas mayores, disfruten de una experiencia informática más cómoda, agradable y eficiente.
+
+Antes de ejecutar esta aplicación, es crucial revisar detenidamente las secciones de "Advertencia" y "Descargo de responsabilidad" para garantizar una experiencia segura.
 
 ## ⚙️ Instrucciones de Uso
 
 ### Requisitos Previos
 - Diseñado para sistemas basados en Windows con PowerShell.
-- Asegúrate de tener los permisos necesarios.
+- Asegúrate de tener los permisos de ejecución necesarios.
 
 ### Ejecución
 <span style="color:yellow">¡El programa está sin terminar!</span>
@@ -24,17 +28,19 @@ Este programa está diseñado para ser amigable y beneficioso, especialmente par
 3. Ejecuta con:
 
     ```powershell
-    .\Renamer.ps1
+    .\renamer.ps1
     ```
-5. Sigue las indicaciones para personalizar el cambio de nombre.
+5. Sigue las indicaciones suministradas por la aplicación.
 
 ### Entrada del Usuario
+- Seleccionar la ruta.
 - Selecciona analizar todos los archivos o tipos específicos.
-- Para tipos específicos, elige el tipo de archivo.
+Se puede filtrar por extensión del archivo.
 
 ### Advertencia
 - **Estado del Programa:**
-  - **Renamer** está en desarrollo, recomendamos precaución y pruebas en un entorno controlado.
+  - **Renamer** está en desarrollo, se recomienda mucha precaución.
+  - Realizar las pruebas en un entorno controlado.
 
 - **Permisos:**
   - Puede necesitar privilegios de administrador para ciertos cambios.
@@ -46,7 +52,7 @@ Este programa está diseñado para ser amigable y beneficioso, especialmente par
 
 ### Información Adicional
 - Experiencia interactiva, permite ingresar preferencias.
-- Mensajes con colores mejoran la legibilidad.
+- Mensajes con colores que mejoran la legibilidad.
 
 ## Flujo del Programa
 
@@ -55,15 +61,15 @@ Este programa está diseñado para ser amigable y beneficioso, especialmente par
    - Para tipos específicos, selecciona el tipo de archivo.
 
 2. **Eliminación de Texto:**
-   - Ingresa el texto a eliminar de los nombres.
+   - Ingresa la cadena de texto o símbolos a eliminar de los archivos.
 
 3. **Proceso de Cambio de Nombre:**
-   - Muestra archivos antes y después, incluyendo texto eliminado.
+   - Muestra archivos antes y después, incluyendo el texto eliminado.
    - Renombra según preferencias.
 
 4. **Repetir Operación:**
    - Opcional, realiza otra operación.
-   - El script guiará a través de operaciones adicionales.
+   - El script guiará al asuario través de las diferentes operaciones adicionales.
 
 5. **Finalización del Programa:**
    - Recibe mensaje de despedida al salir.
