@@ -1,4 +1,4 @@
-# [SIN TERMINAR] Renamer 💣
+# [SIN TERMINAR] REnamer 💣
 
 # Establecer la codificación a UTF-8
 $OutputEncoding = [System.Text.Encoding]::UTF8
