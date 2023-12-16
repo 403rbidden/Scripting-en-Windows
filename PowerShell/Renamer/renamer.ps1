@@ -8,7 +8,6 @@ $rutaCarpeta = "C:\Users\mjoca\Downloads\jdownloader_descargas"
 $contenidoCarpeta = Get-ChildItem -Path $rutaCarpeta
 $contenidoCarpeta
 
-
 $intentos = 0
 
 function ValidarOpcion {
@@ -50,6 +49,17 @@ function ValidarOpcion {
     return $extension
 }
 
+function ListarArchivos {
+    param (
+        [string]$ruta,
+        [string]$extension
+    )
+    Write-Host "`nListado de los archivos con la extension '.$extension' especificada:"
+    Get-ChildItem -Path $ruta -Filter "*.$extension" | ForEach-Object {
+        Write-Host ("- {0}" -f $_.Name)
+    }
+}
+
 function CambiarNombreArchivos {
     param (
         [string]$ruta,
@@ -79,6 +89,7 @@ do {
     }
     $analizarTodos = Read-Host "`nDeseas analizar todos los archivos de la carpeta? (s/n)"
     $extension = ValidarOpcion $analizarTodos
+    ListarArchivos -ruta $rutaCarpeta -extension $extension
 } while ($extension -eq $null)
 
 do {
@@ -95,6 +106,7 @@ do {
             }
             $analizarTodos = Read-Host "`nDeseas analizar todos los archivos de la carpeta? (s/n)"
             $extension = ValidarOpcion $analizarTodos
+            ListarArchivos -ruta $rutaCarpeta -extension $extension
         } while ($extension -eq $null)
     }
 } while ($repetir -eq "s")
