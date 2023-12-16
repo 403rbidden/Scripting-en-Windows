@@ -36,7 +36,8 @@ function ValidarOpcion {
         Write-Host "E. Video (MP4)"
         Write-Host "F. Documento de Word (DOCX)"
         Write-Host "G. Documento de Excel (XLSX)"
-        Write-Host "H. Otros archivos"
+		Write-Host "H. Documento portatil (PDF)"
+        Write-Host "I. Otros archivos"
         
         # Utiliza un switch para asignar la extensión según la opción seleccionada
         $extension = switch (Read-Host "`nIngresa la opcion correspondiente") {
@@ -47,7 +48,8 @@ function ValidarOpcion {
             "e" { "mp4" }
             "f" { "docx" }
             "g" { "xlsx" }
-            "h" { Read-Host "`nIngresa la extension del archivo (sin punto)" }
+            "h" { "pdf"}
+			"i" { Read-Host "`nIngresa la extension del archivo (sin punto)" }
             default {
                 Write-Host "`nOpcion no valida. Por favor, intentalo nuevamente."
                 return $null
