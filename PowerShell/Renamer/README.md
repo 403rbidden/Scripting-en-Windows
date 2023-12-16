@@ -1,11 +1,15 @@
 ![Stitch moon face](https://github.com/403rbidden/Scripting-en-Windows/blob/main/PowerShell/Renamer/stitch_moon_face.png)
 
-# reNAMER
+# REnamer
 
 ## Introducción
-El script de PowerShell, **Renamer**, simplifica el cambio de nombre de archivos en una carpeta específica, permitiendo a los usuarios personalizar nombres de manera eficiente, eliminando caracteres no deseados.
 
-Antes de ejecutar el script, revisa las secciones "Advertencia" y "Descargo de responsabilidad".
+Este programa tiene como objetivo simplificar el proceso de cambio de nombre de archivos y carpetas en un directorio específico. 
+Proporciona a los usuarios la capacidad de personalizar nombres de manera eficiente, eliminando caracteres o símbolos no deseados.
+
+Antes de ejecutar el script, es fundamental revisar detenidamente las secciones "Advertencia" y "Descargo de responsabilidad". 
+
+Este programa está diseñado para ser amigable y beneficioso, especialmente para usuarios no avanzados, facilitándoles el manejo y personalización de nombres de archivos y carpetas de manera intuitiva.
 
 ## ⚙️ Instrucciones de Uso
 
